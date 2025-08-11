@@ -1,0 +1,28 @@
+name: lady_phage_biology
+description: تطبيق تعليمي لعرض فيديوهات وملفات PDF لطلاب البيولوجي.
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  firebase_core: ^2.14.0
+  cloud_firestore: ^4.8.0
+  firebase_storage: ^11.2.0
+  video_player: ^2.5.1
+  chewie: ^1.5.0
+  syncfusion_flutter_pdfviewer: ^21.1.41
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/logo.png
